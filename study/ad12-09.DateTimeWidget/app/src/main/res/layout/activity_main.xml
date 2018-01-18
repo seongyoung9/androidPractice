@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.datetimewidget.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+        
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="시계 위젯: 아날로그 시계, 디지털 시계"/>
+        
+                <AnalogClock
+                    android:id="@+id/aclock1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        
+        
+                <DigitalClock
+                    android:id="@+id/dclock2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"/>
+    
+            </LinearLayout>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="타이머 위젯: 크로노미터(Chronometer)"/>
+        
+        
+        
+                <Chronometer
+                    android:id="@+id/chronometer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:format="시간 측정: %s"
+                    android:gravity="center_horizontal"
+                    android:textSize="30dp"/>
+    
+            </LinearLayout>
+    
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+        
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="타임피커(Timepicker) : 시간을 표시, 조절"/>
+    
+                <TimePicker
+                    android:id="@+id/timepicker1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="clock">
+    
+                </TimePicker>
+    
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="타임피커(Timepicker) 모드(Mode): 시간을 표시, 조절"/>
+                
+                <TimePicker
+                    android:id="@+id/timepicker2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="spinner">
+    
+                </TimePicker>
+    
+            </LinearLayout>
+    
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="데이트피커(DatePicker)와 캘린더뷰 : 날짜를 표시 , 조절"/>
+    
+                <DatePicker
+                    android:id="@+id/datepicker1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="calendar">
+                    
+                </DatePicker>
+    
+                <DatePicker
+                    android:id="@+id/datepicker2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="spinner">
+    
+                </DatePicker>
+                
+                <CalendarView
+                    android:id="@+id/calendarview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+                    
+                </CalendarView>
+            </LinearLayout>
+            
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="실행"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</LinearLayout>

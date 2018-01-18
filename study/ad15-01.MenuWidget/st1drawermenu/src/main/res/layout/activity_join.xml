@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.menuwidget.JoinActivity">
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-Mail"
+        android:textSize="24sp"/>
+    
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e7dc"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:nextFocusDown="@+id/txtpw"
+        android:singleLine="true"
+        android:textSize="24sp"/>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PassWord"
+        android:textSize="24sp"/>
+    
+    <EditText
+        android:id="@+id/txtpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e7dc"
+        android:ems="10"
+        android:hint="PassWord"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:nextFocusDown="@+id/txtpwch"
+        android:singleLine="true"
+        android:textSize="24sp"/>
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PassWord Check"
+        android:textSize="24sp"/>
+    
+    <EditText
+        android:id="@+id/txtpwch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e7dc"
+        android:ems="10"
+        android:hint="PassWord Check"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:nextFocusDown="@+id/btnlogingo"
+        android:singleLine="true"
+        android:textSize="24sp"/>
+    
+    <TextView
+        android:id="@+id/chch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비밀번호를 확인해 주세요"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"/>
+    
+    <Button
+        android:id="@+id/btnlogingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="가입완료"
+        android:background="#f1cc12"/>
+</LinearLayout>

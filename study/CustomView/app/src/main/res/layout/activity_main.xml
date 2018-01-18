@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.customview.MainActivity">
+
+    
+    <com.example.administrator.customview.ColorOptionsView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="?android:selectableItemBackground"
+        app:titleText="Background Color"
+        app:valueColor="@android:color/holo_green_dark"
+        >
+    
+    </com.example.administrator.customview.ColorOptionsView>
+    
+    <com.example.administrator.customview.ColorOptionsView
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="?android:selectableItemBackground"
+        app:titleText="Forground Color"
+        app:valueColor="@android:color/holo_orange_dark"
+        >
+    
+    </com.example.administrator.customview.ColorOptionsView>
+    
+    <!-- 2번째 자식 불러오고 값설정 -->
+</LinearLayout>

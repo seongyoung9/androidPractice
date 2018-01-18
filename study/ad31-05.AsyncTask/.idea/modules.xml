@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AsyncTask/AsyncTask.iml" filepath="$PROJECT_DIR$/AsyncTask/AsyncTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad31-05.AsyncTask.iml" filepath="$PROJECT_DIR$/ad31-05.AsyncTask.iml" />
+      <module fileurl="file://C:\Users\Administrator\AndroidStudioProjects\ad31-05.AsyncTask\AsyncTask\app.iml" filepath="C:\Users\Administrator\AndroidStudioProjects\ad31-05.AsyncTask\AsyncTask\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asynctaskbar/asynctaskbar.iml" filepath="$PROJECT_DIR$/asynctaskbar/asynctaskbar.iml" />
+    </modules>
+  </component>
+</project>

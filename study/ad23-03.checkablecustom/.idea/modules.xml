@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad23-03.checkablecustom.iml" filepath="$PROJECT_DIR$/ad23-03.checkablecustom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checklist/checklist.iml" filepath="$PROJECT_DIR$/checklist/checklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multitypelistview/multitypelistview.iml" filepath="$PROJECT_DIR$/multitypelistview/multitypelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st5paginglistview/st5paginglistview.iml" filepath="$PROJECT_DIR$/st5paginglistview/st5paginglistview.iml" />
+    </modules>
+  </component>
+</project>

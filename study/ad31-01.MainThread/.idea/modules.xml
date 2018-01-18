@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad31-01.MainThread.iml" filepath="$PROJECT_DIR$/ad31-01.MainThread.iml" />
+      <module fileurl="file://C:\Users\Administrator\AndroidStudioProjects\ad31-01.MainThread\st1mainthread\app.iml" filepath="C:\Users\Administrator\AndroidStudioProjects\ad31-01.MainThread\st1mainthread\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st1mainthread/st1mainthread.iml" filepath="$PROJECT_DIR$/st1mainthread/st1mainthread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st3countdown/st3countdown.iml" filepath="$PROJECT_DIR$/st3countdown/st3countdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st5progressbar/st5progressbar.iml" filepath="$PROJECT_DIR$/st5progressbar/st5progressbar.iml" />
+    </modules>
+  </component>
+</project>

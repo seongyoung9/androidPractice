@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.reservationapp.MainActivity">
+    
+    <Chronometer
+        android:id="@+id/chrono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format="예약에 걸린 시간: %s"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+    
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예약시작"/>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    
+            <RadioGroup
+                android:id="@+id/rdrg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+    
+                <RadioButton
+                    android:id="@+id/rddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:text="날짜설정(데이트피커)"
+                    android:textSize="20sp"/>
+    
+                <RadioButton
+                    android:id="@+id/rdtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="시간설정"
+                    android:textSize="20sp"/>
+    
+    
+            </RadioGroup>
+    
+            <DatePicker
+                android:id="@+id/datereser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+    
+            <TimePicker
+                android:id="@+id/timereser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:timePickerMode="spinner"
+                android:visibility="gone"/>
+    
+            <TextView
+                android:id="@+id/txtdatereser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="25sp"
+                android:visibility="gone"/>
+    
+            <TextView
+                android:id="@+id/txttimereser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="25sp"
+                android:visibility="gone"/>
+    
+            <Button
+                android:id="@+id/btnend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="예약완료"/>
+            
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

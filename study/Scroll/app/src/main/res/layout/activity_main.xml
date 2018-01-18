@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.scroll.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button1"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button2"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button3"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button4"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button5"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button6"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button7"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button8"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button9"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button10"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button11"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button12"/>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="button13"/>
+            
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

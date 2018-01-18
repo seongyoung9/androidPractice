@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1">"네이트홈페이지열기"</string>
+    <string name="button2">"911 응급전화 걸기"</string>
+    <string name="button3">"갤러리 열기"</string>
+    <string name="button4">"끝내기"</string>
+</resources>

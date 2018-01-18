@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad23-01.ListViewSample.iml" filepath="$PROJECT_DIR$/ad23-01.ListViewSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st1simplelistview/st1simplelistview.iml" filepath="$PROJECT_DIR$/st1simplelistview/st1simplelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st2simplelistview_multi/st2simplelistview_multi.iml" filepath="$PROJECT_DIR$/st2simplelistview_multi/st2simplelistview_multi.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.painting_ballot.MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        
+        <ImageView
+            android:id="@+id/mov0"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov00"/>
+    
+        <ImageView
+            android:id="@+id/mov1"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov01"/>
+        
+        <ImageView
+            android:id="@+id/mov2"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov02"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        
+        <ImageView
+            android:id="@+id/mov3"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov03"/>
+        
+        <ImageView
+            android:id="@+id/mov4"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov04"/>
+        
+        <ImageView
+            android:id="@+id/mov5"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov05"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        
+        <ImageView
+            android:id="@+id/mov6"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov06"/>
+        
+        <ImageView
+            android:id="@+id/mov7"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov07"/>
+        
+        <ImageView
+            android:id="@+id/mov8"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/mov08"/>
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <Button
+            android:id="@+id/btngo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="결과보기"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.st2personview.MainActivity">
+
+    <com.example.st2personview.PersonView
+        android:id="@+id/view_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:my_photo="@drawable/sample_5"
+        app:my_age="24"
+        app:my_name="Seongyoung">
+        
+        
+    </com.example.st2personview.PersonView>
+    
+    
+    <ImageView
+        android:id="@+id/image_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
