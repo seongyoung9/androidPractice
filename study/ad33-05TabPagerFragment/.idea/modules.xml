@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ad33-05TabPagerFragment.iml" filepath="$PROJECT_DIR$/.idea/ad33-05TabPagerFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st1/st1.iml" filepath="$PROJECT_DIR$/st1/st1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st3/st3.iml" filepath="$PROJECT_DIR$/st3/st3.iml" />
+    </modules>
+  </component>
+</project>

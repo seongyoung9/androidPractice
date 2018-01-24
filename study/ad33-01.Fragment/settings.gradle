@@ -1,1 +1,1 @@
-include ':st1FramentInDesign', ':st3fragementtranaction'
+include ':st1FramentInDesign', ':st3fragementtranaction', ':stsolofragmentpractice', ':st5BackStack'

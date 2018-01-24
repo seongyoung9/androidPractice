@@ -1,6 +1,7 @@
 package com.example.st3fragementtranaction;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,16 +12,19 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.content.Intent;
 
 public class FragmentTwo extends Fragment {
 
     public static final String KEY_INPUT = "input";
+    private int REQUST_CODE_OTHER_ACTIVITY = 100000;
 
-    private String   inputText = "";
-    private EditText inputView = null;
+    private String   inputText   = ""  ;
+    private EditText inputView   = null;
     private TextView messageView = null;
-    private Button   btnsend = null;
-    private Button   btnsend2 = null;
+    private Button   btnsend     = null;
+    private Button   btnsend2    = null;
+    private Button   btnsend3    = null;
 
     public static FragmentTwo newInstance( String input ) {
 
@@ -72,10 +76,11 @@ public class FragmentTwo extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_two, container, false);
 
-        inputView   = view.findViewById(R.id.edit_input);
-        messageView = view.findViewById(R.id.text_message);
-        btnsend     = view.findViewById(R.id.btn_send);
+        inputView    = view.findViewById(R.id.edit_input);
+        messageView  = view.findViewById(R.id.text_message);
+        btnsend      = view.findViewById(R.id.btn_send);
         btnsend2     = view.findViewById(R.id.btn_send2);
+        btnsend3     = view.findViewById(R.id.btn_send3);
 
         btnsend.setOnClickListener( new View.OnClickListener(  ) {
             @Override
@@ -100,6 +105,16 @@ public class FragmentTwo extends Fragment {
                 }
             }
         });
+
+        btnsend3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //엑티비티 띄우기
+                Intent i = new Intent( getContext() , OtherActivity.class );
+                startActivityForResult( i , REQUST_CODE_OTHER_ACTIVITY );
+            }
+        });
         return view;
     }
 
@@ -107,5 +122,17 @@ public class FragmentTwo extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == REQUST_CODE_OTHER_ACTIVITY && resultCode == Activity.RESULT_OK){
+
+            String msg = data.getStringExtra(Common.OTHER_MSG);
+            inputView.setText( msg );
+        }
+    }
+
+
     //-----------------------------------------------
 }
