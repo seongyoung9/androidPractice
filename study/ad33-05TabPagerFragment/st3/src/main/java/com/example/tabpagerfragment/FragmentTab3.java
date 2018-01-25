@@ -45,9 +45,6 @@ public class FragmentTab3 extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_tab3, container, false);
 
-        TextView tv = v.findViewById(R.id.textview3);
-        tv.setText( mParam1 );
-
         return v;
     }
 
