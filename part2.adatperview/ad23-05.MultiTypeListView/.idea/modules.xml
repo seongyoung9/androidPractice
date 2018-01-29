@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad23-05.MultiTypeListView.iml" filepath="$PROJECT_DIR$/ad23-05.MultiTypeListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st1simplemultitype/st1simplemultitype.iml" filepath="$PROJECT_DIR$/st1simplemultitype/st1simplemultitype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/st3actor/st3actor.iml" filepath="$PROJECT_DIR$/st3actor/st3actor.iml" />
+    </modules>
+  </component>
+</project>

@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        viewpager.setOffscreenPageLimit( 4 );    // 이걸 안하면 주변 1개만 정보가 유지되는데
+        // 이건 최대 4개까지 유지하도록 해줌
     }
 
     private class TabPagerAdapter extends FragmentPagerAdapter {

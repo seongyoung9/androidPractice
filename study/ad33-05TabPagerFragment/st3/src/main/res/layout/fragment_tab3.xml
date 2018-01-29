@@ -115,14 +115,6 @@
         android:orientation="horizontal">
         
         <Button
-            android:id="@+id/btn_del"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onClick"
-            android:text="삭제"/>
-        
-        <Button
             android:id="@+id/btn_all_del"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

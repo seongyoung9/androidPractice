@@ -42,10 +42,11 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 }
 
-Context 얻는 3가지 방법.
-1. getApplicationContext()   // 액티비티, Service
+Context를 얻는 방법.
+1. getApplicationContext()   // 액티비티, Service.
 2. View.getContext()
-3. MainActivity.this         // 액티비티인 경우
+3. MainActivity.this         // 액티비티인 경우.
+4. getContext()              // 프래그먼트인 경우.
 
 
 inflation 하는 방법 2가지.
