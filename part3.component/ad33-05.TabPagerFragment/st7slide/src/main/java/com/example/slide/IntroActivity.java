@@ -40,16 +40,16 @@ public class IntroActivity extends AppCompatActivity {
         if( mPref.isFirstTimeLaunch() ) {
 
             // intro 화면, 4개를 모두 본 경우에는 다시 IntroActivity가 출력되지 않게.
-            launchMain();
-        }
+        launchMain();
+    }
 
         setContentView(R.layout.activity_intro);
 
         // 위젯 찾기.
-        mViewPager = findViewById(R.id.view_pager);
+        mViewPager  = findViewById(R.id.view_pager);
         mLayoutDots = findViewById(R.id.layout_dots);
-        mBtnSkip   = findViewById(R.id.btn_skip);
-        mBtnNext   = findViewById(R.id.btn_next);
+        mBtnSkip    = findViewById(R.id.btn_skip);
+        mBtnNext    = findViewById(R.id.btn_next);
 
         // 위젯 설정. 리스너, 어댑터
         mAdapter = new SlidePagerAdapter(  IntroActivity.this );

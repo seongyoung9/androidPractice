@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">cafe</string>
     <string name="action_settings">Settings</string>
+    <string name="button_pre">Pre</string>
+    <string name="button_next">Next</string>
+    <string name="button_skip">Skip</string>
+    <string name="intro_small_1">가격도 의리다 맛도 의리다</string>
+    <string name="slide_1_title">PAIK\'S COFFEE</string>
 </resources>
