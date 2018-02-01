@@ -6,7 +6,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FragmentTab4 extends Fragment {
 
@@ -16,6 +20,17 @@ public class FragmentTab4 extends Fragment {
 
     private String mParam1;
     private String mParam2;
+    private Tab4_Adapter_Image tab4Adapter;
+    private ListView tab4ListView;
+    private int[] imageIds = {
+              R.drawable.icon01
+            , R.drawable.icon02
+            , R.drawable.icon03
+            , R.drawable.icon04
+            , R.drawable.icon05
+            , R.drawable.icon06
+    };
+    private List<Tab4_Model_Image> data;
 
 
     public FragmentTab4() {
@@ -46,10 +61,30 @@ public class FragmentTab4 extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_tab4, container, false);
 
-        TextView tv = v.findViewById(R.id.textview4);
-        tv.setText( mParam1 );
+        data = MakeData( 0 , 10);
+
+        tab4Adapter = new Tab4_Adapter_Image( getContext(), R.layout.fragment_tab4_custom , data);
+        tab4ListView = v.findViewById(R.id.tab4_listView);
+
+        tab4ListView.setAdapter( tab4Adapter );
 
         return v;
+    }
+
+    private List<Tab4_Model_Image> MakeData( int start, int count ) {
+
+        List<Tab4_Model_Image> newitems = new ArrayList<Tab4_Model_Image>();
+
+        for(int i=start; i<start + count; i++){
+            Tab4_Model_Image tab4Model = new Tab4_Model_Image();
+            tab4Model.setFirstImage( getResources().getDrawable( imageIds[ i % imageIds.length ] , null) );
+            tab4Model.setFirstText( "name1 " + i );
+            tab4Model.setSecondImage( getResources().getDrawable( imageIds[ i % imageIds.length ] , null) );
+            tab4Model.setSecondText( "name2 " + i );
+
+            newitems.add( tab4Model );
+        }
+        return newitems;
     }
 
 }
