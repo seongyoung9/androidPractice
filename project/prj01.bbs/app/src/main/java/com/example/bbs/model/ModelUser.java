@@ -1,8 +1,11 @@
 package com.example.bbs.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
-public class ModelUser {
+public class ModelUser implements Parcelable {
     
     Integer  userno      ; // NUMBER(10)      generated as identity
     String   userid      ; // VARCHAR2( 50)   NOT NULL
@@ -16,6 +19,59 @@ public class ModelUser {
     Date     InsertDT    ; // Date            NULL
     String   UpdateUID   ; // VARCHAR(40)     NULL                            
     Date     UpdateDT    ; // Date            NULL
+
+    protected ModelUser(Parcel in) {
+        if (in.readByte() == 0) {
+            userno = null;
+        } else {
+            userno = in.readInt();
+        }
+        userid = in.readString();
+        email = in.readString();
+        passwd = in.readString();
+        name = in.readString();
+        mobile = in.readString();
+        byte tmpRetireYN = in.readByte();
+        retireYN = tmpRetireYN == 0 ? null : tmpRetireYN == 1;
+        InsertUID = in.readString();
+        UpdateUID = in.readString();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        if (userno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(userno);
+        }
+        dest.writeString(userid);
+        dest.writeString(email);
+        dest.writeString(passwd);
+        dest.writeString(name);
+        dest.writeString(mobile);
+        dest.writeByte((byte) (retireYN == null ? 0 : retireYN ? 1 : 2));
+        dest.writeString(InsertUID);
+        dest.writeString(UpdateUID);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelUser> CREATOR = new Creator<ModelUser>() {
+        @Override
+        public ModelUser createFromParcel(Parcel in) {
+            return new ModelUser(in);
+        }
+
+        @Override
+        public ModelUser[] newArray(int size) {
+            return new ModelUser[size];
+        }
+    };
+
     public Integer getUserno() {
         return userno;
     }

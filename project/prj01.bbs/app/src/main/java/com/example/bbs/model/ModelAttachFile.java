@@ -1,8 +1,11 @@
 package com.example.bbs.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
-public class ModelAttachFile {
+public class ModelAttachFile implements Parcelable {
     Integer attachfileno   ;
     String  filenameorig   ;
     String  filenametemp   ;
@@ -14,7 +17,77 @@ public class ModelAttachFile {
     Date    InsertDT       ;
     String  UpdateUID      ;     
     Date    UpdateDT       ;
-    
+
+    protected ModelAttachFile(Parcel in) {
+        if (in.readByte() == 0) {
+            attachfileno = null;
+        } else {
+            attachfileno = in.readInt();
+        }
+        filenameorig = in.readString();
+        filenametemp = in.readString();
+        filetype = in.readString();
+        if (in.readByte() == 0) {
+            filesize = null;
+        } else {
+            filesize = in.readLong();
+        }
+        if (in.readByte() == 0) {
+            articleno = null;
+        } else {
+            articleno = in.readInt();
+        }
+        byte tmpUseYN = in.readByte();
+        UseYN = tmpUseYN == 0 ? null : tmpUseYN == 1;
+        InsertUID = in.readString();
+        UpdateUID = in.readString();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        if (attachfileno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(attachfileno);
+        }
+        dest.writeString(filenameorig);
+        dest.writeString(filenametemp);
+        dest.writeString(filetype);
+        if (filesize == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeLong(filesize);
+        }
+        if (articleno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(articleno);
+        }
+        dest.writeByte((byte) (UseYN == null ? 0 : UseYN ? 1 : 2));
+        dest.writeString(InsertUID);
+        dest.writeString(UpdateUID);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelAttachFile> CREATOR = new Creator<ModelAttachFile>() {
+        @Override
+        public ModelAttachFile createFromParcel(Parcel in) {
+            return new ModelAttachFile(in);
+        }
+
+        @Override
+        public ModelAttachFile[] newArray(int size) {
+            return new ModelAttachFile[size];
+        }
+    };
+
     public Integer getAttachfileno() {
         return attachfileno;
     }

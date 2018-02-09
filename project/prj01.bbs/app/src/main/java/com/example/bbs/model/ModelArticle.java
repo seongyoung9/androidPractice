@@ -1,8 +1,11 @@
 package com.example.bbs.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
-public class ModelArticle {
+public class ModelArticle implements Parcelable {
     
     Integer articleno ;
     String  boardcd   ;
@@ -16,13 +19,95 @@ public class ModelArticle {
     Date    InsertDT  ;
     String  UpdateUID ;     
     Date    UpdateDT  ;
-
-
+    
+    //
     Integer attachFileNum;
     Integer commentNum;
-    
-    
-    
+
+
+    protected ModelArticle(Parcel in) {
+        if (in.readByte() == 0) {
+            articleno = null;
+        } else {
+            articleno = in.readInt();
+        }
+        boardcd = in.readString();
+        title = in.readString();
+        content = in.readString();
+        email = in.readString();
+        if (in.readByte() == 0) {
+            hit = null;
+        } else {
+            hit = in.readInt();
+        }
+        byte tmpUseYN = in.readByte();
+        UseYN = tmpUseYN == 0 ? null : tmpUseYN == 1;
+        InsertUID = in.readString();
+        UpdateUID = in.readString();
+        if (in.readByte() == 0) {
+            attachFileNum = null;
+        } else {
+            attachFileNum = in.readInt();
+        }
+        if (in.readByte() == 0) {
+            commentNum = null;
+        } else {
+            commentNum = in.readInt();
+        }
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        if (articleno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(articleno);
+        }
+        dest.writeString(boardcd);
+        dest.writeString(title);
+        dest.writeString(content);
+        dest.writeString(email);
+        if (hit == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(hit);
+        }
+        dest.writeByte((byte) (UseYN == null ? 0 : UseYN ? 1 : 2));
+        dest.writeString(InsertUID);
+        dest.writeString(UpdateUID);
+        if (attachFileNum == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(attachFileNum);
+        }
+        if (commentNum == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(commentNum);
+        }
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelArticle> CREATOR = new Creator<ModelArticle>() {
+        @Override
+        public ModelArticle createFromParcel(Parcel in) {
+            return new ModelArticle(in);
+        }
+
+        @Override
+        public ModelArticle[] newArray(int size) {
+            return new ModelArticle[size];
+        }
+    };
+
     public Integer getArticleno() {
         return articleno;
     }

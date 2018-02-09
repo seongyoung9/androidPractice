@@ -1,8 +1,11 @@
 package com.example.bbs.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
-public class ModelComments {
+public class ModelComments implements Parcelable {
     Integer commentno   ; // NUMBER(10)     generated as identity 
     Integer articleno   ; // NUMBER(10)     NOT NULL     
     String  email       ; // VARCHAR2(60)  
@@ -14,7 +17,64 @@ public class ModelComments {
     String  UpdateUID   ; // VARCHAR(40)  NULL                            
     Date    UpdateDT    ; // Date         NULL
 
-    
+
+    protected ModelComments(Parcel in) {
+        if (in.readByte() == 0) {
+            commentno = null;
+        } else {
+            commentno = in.readInt();
+        }
+        if (in.readByte() == 0) {
+            articleno = null;
+        } else {
+            articleno = in.readInt();
+        }
+        email = in.readString();
+        memo = in.readString();
+        byte tmpUseYN = in.readByte();
+        UseYN = tmpUseYN == 0 ? null : tmpUseYN == 1;
+        InsertUID = in.readString();
+        UpdateUID = in.readString();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        if (commentno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(commentno);
+        }
+        if (articleno == null) {
+            dest.writeByte((byte) 0);
+        } else {
+            dest.writeByte((byte) 1);
+            dest.writeInt(articleno);
+        }
+        dest.writeString(email);
+        dest.writeString(memo);
+        dest.writeByte((byte) (UseYN == null ? 0 : UseYN ? 1 : 2));
+        dest.writeString(InsertUID);
+        dest.writeString(UpdateUID);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelComments> CREATOR = new Creator<ModelComments>() {
+        @Override
+        public ModelComments createFromParcel(Parcel in) {
+            return new ModelComments(in);
+        }
+
+        @Override
+        public ModelComments[] newArray(int size) {
+            return new ModelComments[size];
+        }
+    };
+
     public Integer getCommentno() {
         return commentno;
     }
@@ -94,7 +154,7 @@ public class ModelComments {
                 + InsertUID + ", InsertDT=" + InsertDT + ", UpdateUID="
                 + UpdateUID + ", UpdateDT=" + UpdateDT + "]";
     }
-  
-    
-    
+
+
+
 }

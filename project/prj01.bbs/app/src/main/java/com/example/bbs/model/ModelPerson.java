@@ -1,62 +1,92 @@
 package com.example.bbs.model;
 
-import android.graphics.drawable.Drawable;
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class ModelPerson {
-    private Drawable imagePhoto = null;  // ImageView
-    private String   textName   = ""  ;  // TextView
-    private String   textAge    = ""  ;  // TextView
-    private Boolean  imageCheck = null;  // CheckBox
+public class ModelPerson implements Parcelable {
+    
+    private String id      = ""; 
+    private String pw      = "";
+    private String name    = ""; 
+    private String email   = "";
 
-    public Drawable getImagePhoto() {
-        return imagePhoto;
-    }
-
-    public void setImagePhoto(Drawable imagePhoto) {
-        this.imagePhoto = imagePhoto;
-    }
-
-    public String getTextName() {
-        return textName;
-    }
-
-    public void setTextName(String textName) {
-        this.textName = textName;
-    }
-
-    public String getTextAge() {
-        return textAge;
-    }
-
-    public void setTextAge(String textAge) {
-        this.textAge = textAge;
-    }
-
-    public Boolean getImageCheck() {
-        return imageCheck;
-    }
-
-    public void setImageCheck(Boolean imageCheck) {
-        this.imageCheck = imageCheck;
+    protected ModelPerson(Parcel in) {
+        id = in.readString();
+        pw = in.readString();
+        name = in.readString();
+        email = in.readString();
     }
 
     @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(id);
+        dest.writeString(pw);
+        dest.writeString(name);
+        dest.writeString(email);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelPerson> CREATOR = new Creator<ModelPerson>() {
+        @Override
+        public ModelPerson createFromParcel(Parcel in) {
+            return new ModelPerson(in);
+        }
+
+        @Override
+        public ModelPerson[] newArray(int size) {
+            return new ModelPerson[size];
+        }
+    };
+
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getPw() {
+        return pw;
+    }
+    public void setPw(String pw) {
+        this.pw = pw;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    @Override
     public String toString() {
-        return "ModelPerson{" +
-                "imagePhoto=" + imagePhoto +
-                ", textName='" + textName + '\'' +
-                ", textAge='" + textAge + '\'' +
-                ", imageCheck=" + imageCheck +
-                '}';
+        return "ModelPerson [id=" + id + ", pw=" + pw + ", name=" + name
+                + ", email=" + email + "]";
     }
-
+    
     public ModelPerson() {
+        super();
     }
-
-    public ModelPerson(Drawable imagePhoto, String textName, String textAge, Boolean imageCheck) {
-        this.imagePhoto = imagePhoto;
-        this.textName = textName;
-        this.textAge = textAge;
-        this.imageCheck = imageCheck;
+    public ModelPerson(String id, String pw) {
+        super();
+        this.id = id;
+        this.pw = pw;
     }
+    public ModelPerson(String id, String pw, String name, String email) {
+        super();
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.email = email;
+    }
+    
 }

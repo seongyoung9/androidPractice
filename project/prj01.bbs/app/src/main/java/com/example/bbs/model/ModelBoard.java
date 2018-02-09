@@ -1,8 +1,11 @@
 package com.example.bbs.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
-public class ModelBoard {
+public class ModelBoard implements Parcelable{
     String  boardcd    ; // VARCHAR2(20)    NOT NULL ENABLE
     String  boardnm    ; // VARCHAR2(40)    NOT NULL ENABLE
     Boolean UseYN      ; // NUMBER(1)       DEFAULT 1 NOT NULL ENABLE
@@ -10,6 +13,42 @@ public class ModelBoard {
     Date    InsertDT   ; // Date            NULL
     String  UpdateUID  ; // VARCHAR(40)     NULL                            
     Date    UpdateDT   ; // Date            NULL
+
+    protected ModelBoard(Parcel in) {
+        boardcd = in.readString();
+        boardnm = in.readString();
+        byte tmpUseYN = in.readByte();
+        UseYN = tmpUseYN == 0 ? null : tmpUseYN == 1;
+        InsertUID = in.readString();
+        UpdateUID = in.readString();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(boardcd);
+        dest.writeString(boardnm);
+        dest.writeByte((byte) (UseYN == null ? 0 : UseYN ? 1 : 2));
+        dest.writeString(InsertUID);
+        dest.writeString(UpdateUID);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<ModelBoard> CREATOR = new Creator<ModelBoard>() {
+        @Override
+        public ModelBoard createFromParcel(Parcel in) {
+            return new ModelBoard(in);
+        }
+
+        @Override
+        public ModelBoard[] newArray(int size) {
+            return new ModelBoard[size];
+        }
+    };
+
     public String getBoardcd() {
         return boardcd;
     }
