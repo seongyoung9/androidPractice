@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="277b17de-8c6d-44df-a633-3a88414de7d2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Kotlin File" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>responselistener</find>
+    </findStrings>
+  </component>
+  <component name="GotoFileConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="AIDL" />
+      <filtered-out-file-type name="APK" />
+      <filtered-out-file-type name="ARCHIVE" />
+      <filtered-out-file-type name="Adobe Photoshop" />
+      <filtered-out-file-type name="Allocations" />
+      <filtered-out-file-type name="Android Nine-Patch" />
+      <filtered-out-file-type name="Android RenderScript" />
+      <filtered-out-file-type name="Android Room SQL" />
+      <filtered-out-file-type name="AndroidDataBinding" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="Assembly file" />
+      <filtered-out-file-type name="C#" />
+      <filtered-out-file-type name="C++" />
+      <filtered-out-file-type name="CLASS" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Doxygen file" />
+      <filtered-out-file-type name="Enforced Plain Text" />
+      <filtered-out-file-type name="Erlang" />
+      <filtered-out-file-type name="Font" />
+      <filtered-out-file-type name="GDBCommands" />
+      <filtered-out-file-type name="Groovy" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="Haskell" />
+      <filtered-out-file-type name="Hprof" />
+      <filtered-out-file-type name="IDEA_MODULE" />
+      <filtered-out-file-type name="IDEA_PROJECT" />
+      <filtered-out-file-type name="IDEA_WORKSPACE" />
+      <filtered-out-file-type name="IDL" />
+      <filtered-out-file-type name="Images" />
+      <filtered-out-file-type name="JAVA" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSON Schema" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JavaFX" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="KJSM" />
+      <filtered-out-file-type name="Kotlin" />
+      <filtered-out-file-type name="LLDBCommands" />
+      <filtered-out-file-type name="Layout Inspector" />
+      <filtered-out-file-type name="Manifest" />
+      <filtered-out-file-type name="ModuleMap" />
+      <filtered-out-file-type name="Native" />
+      <filtered-out-file-type name="ObjectiveC" />
+      <filtered-out-file-type name="PATCH" />
+      <filtered-out-file-type name="PHP" />
+      <filtered-out-file-type name="PLAIN_TEXT" />
+      <filtered-out-file-type name="Perl" />
+      <filtered-out-file-type name="ProGuard File" />
+      <filtered-out-file-type name="Properties" />
+      <filtered-out-file-type name="RNG Compact" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="ResourceBundle" />
+      <filtered-out-file-type name="SPI" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="Scratch" />
+      <filtered-out-file-type name="Smali" />
+      <filtered-out-file-type name="UNKNOWN" />
+      <filtered-out-file-type name="VmTrace" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="YAML" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="kotlin_builtins" />
+      <filtered-out-file-type name="kotlin_module" />
+    </file-type-list>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\Administrator\.gradle\wrapper\dists\gradle-4.1-all\bzyivzo6n839fup2jbap0tjew\gradle-4.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.1" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_one.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_two.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_plus_one.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1/Tab1_Model_Card2.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1/Tab1_Adapter_Card2.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab4Fragment.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab4.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity1.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity2.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab5.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab5/Tab5_Model_Card.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1/Tab1Fragment.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/values/drawables.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab1.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Rparty.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/MenuButton.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab21Fragment.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1/Tab1_Model_Card.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1/Tab2_Adapter_Card.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab1_Model_Card.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBarMainActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab5/Tab5_Adapter_Card.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/build/generated/source/r/debug/com/example/st1drawermenu/R.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity5.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Tab1MenuButton.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab5/Tab5Fragment.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Tab2MenuButton.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_sub_menu5.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Webview/WebviewActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_webview.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/app_bar_main.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2MenuButton.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_qrcode.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_car.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/QrcodeActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_search.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/AppBarMainActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/cart_custom.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2Fragment.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/CartActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_cart.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/MainActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartAdapter.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_sub_menu.xml" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartModel.java" />
+        <option value="$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="202" />
+    <option name="width" value="1718" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad15-01.MenuWidget_test2_succes" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ad15-01.MenuWidget_test2_succes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ad15-01.MenuWidget_test2_succes" />
+    <property name="device.picker.selection" value="Nexus_5X_API_21" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/st1drawermenu/src/main/res/drawable" />
+    <property name="VectorAssetImportPath" value="D:\work\Lecher" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\Lecher\Android\Work\part4.io\ad15-01.MenuWidget_test2_succes\st1drawermenu\src\main\res\drawable" />
+      <recent name="D:\workspace\Lecher\Android\Work\part4.io\ad15-01.MenuWidget_test2_succes\st1drawermenu\src\main\res\layout" />
+      <recent name="D:\workspace\Lecher\Android\Work\part4.io\ad15-01.MenuWidget_test2_succes\st1drawermenu\src\main\java\com\example\st1drawermenu\SubuMenu" />
+      <recent name="D:\workspace\Lecher\Android\Work\part4.io\ad15-01.MenuWidget_test2_succes\st1drawermenu\src\main\java\com\example\st1drawermenu\Fragment\Tab1" />
+      <recent name="D:\work\Lecher\Android\Work\part4.io\ad15-01.MenuWidget_test2_succes\st1drawermenu\src\main\res\drawable" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.st1drawermenu.Cart" />
+      <recent name="com.example.st1drawermenu.AppBar" />
+      <recent name="com.example.st1drawermenu" />
+      <recent name="com.example.st1drawermenu.SubuMenu" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.st1drawermenu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.st1drawermenu.SubuMenu" />
+      <recent name="com.example.st1drawermenu.Fragment.Tab5" />
+      <recent name="com.example.st1drawermenu.Fragment.Tab1" />
+      <recent name="com.example.st1drawermenu" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.st1drawermenu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.st1drawermenu">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method>
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1517965822666" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method>
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1517965822666" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ad15-01.MenuWidget_test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="st1drawermenu" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="st1drawermenu" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="st2preference" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="st2preference" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="st3toolbar" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="st3toolbar" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Android App.st1drawermenu" />
+      <item index="1" class="java.lang.String" itemvalue="Android App.st2preference" />
+      <item index="2" class="java.lang.String" itemvalue="Android App.st3toolbar" />
+    </list>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="277b17de-8c6d-44df-a633-3a88414de7d2" name="Default" comment="" />
+      <created>1516177915504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516177915504</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="202" y="0" width="1718" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39494833" sideWeight="0.5025198" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18192628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29717514" sideWeight="0.4909335" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29717514" sideWeight="0.50906646" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="924" y="436" width="518" height="181" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22162525" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.49721837" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/refs.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/ids.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/drawables.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/dimens.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/colors.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/attrs_person.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/arrays.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/values/array.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/menu/main.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/menu/activity_main_drawer.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/nav_header_main.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab5_custom.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/content_main.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_login.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_sub_menu5.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/drawable/qr-code.png" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_qrcode.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab4.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab1.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab3.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/app_bar_main.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/SearchActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/QrcodeActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_search.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab5/Tab5Fragment.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity5.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/AppBarMainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/cart_custom.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_cart2.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/AppBar/CartActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/fragment_tab2.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_cart.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2_Adapter_Card.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2MenuButton.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2_Model_Card.java" />
+    <entry file="file://C:/DevTool/android/sdk/sources/android-21/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4756" column="0" lean-forward="false" selection-start-line="4756" selection-start-column="0" selection-end-line="4756" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/DevTool/android/sdk/sources/android-21/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/DevTool/android/sdk/sources/android-21/android/app/ActivityTransitionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartModel.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/res/layout/activity_sub_menu.xml" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/SubuMenu/SubMenuActivity.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab1Fragment.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Fragment/Tab2/Tab2Fragment.java" />
+    <entry file="file://$PROJECT_DIR$/st1drawermenu/src/main/java/com/example/st1drawermenu/Cart/CartActivity.java" />
+    <entry file="file://C:/DevTool/android/sdk/sources/android-26/android/content/SharedPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/st2preference/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/st2preference/src/main/java/com/example/st2preference/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+  </component>
+</project>

@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         tablayout.setTabGravity(Gravity.FILL);  // in design : app:tabMode
         tablayout.setTabMode(TabLayout.MODE_SCROLLABLE);  // in design : app:tabMode
 
+
         // ViewPager 설정
         viewpager = findViewById(R.id.view_pager);
         TabPagerAdapter adapter = new TabPagerAdapter( getSupportFragmentManager(), tablayout.getTabCount() );

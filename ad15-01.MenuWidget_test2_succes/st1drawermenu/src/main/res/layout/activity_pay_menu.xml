@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.st1drawermenu.PayMenu.PayMenuActivity">
+    
+    <ListView
+        android:id="@+id/pay_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </ListView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="93dp"
+            android:text="총액"
+            android:textColor="#ff0000"
+            android:textSize="40dp"/>
+    
+        <TextView
+            android:id="@+id/total_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="가격"
+            android:textColor="#ff0000"
+            android:textSize="40dp"/>
+        
+    </RelativeLayout>
+    
+    </RelativeLayout>

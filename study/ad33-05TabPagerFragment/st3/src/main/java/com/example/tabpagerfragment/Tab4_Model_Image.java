@@ -4,7 +4,7 @@ import android.graphics.drawable.Drawable;
 
 public class Tab4_Model_Image {
 
-    private Drawable    firstImage   = null ;
+    private Drawable firstImage   = null ;
     private Drawable    secondImage  = null ;
     private String      firstText    = ""   ;
     private String      secondText   = ""   ;

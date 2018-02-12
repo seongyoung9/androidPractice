@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#FF4081</color>
+    
+    <color name="colorPrimary2">#f96d99</color>
+    <color name="colorPrimaryDark2">#c65fa3</color>
+    <color name="colorAccent2">#f43a79</color>
+    <color name="colorAccentDark2">#ef0454</color>
+    
+    <color name="colorWarning">#f97fa8</color>
+    <color name="colorGray">#a4a2a2</color>
+    ]<color name="colorskyblue">#4ec7f2</color>
+    
+    <!-- Screen background colors -->
+    <color name="bg_screen1">#eea4f1</color>
+    <color name="bg_screen2">#c4246c</color>
+    <color name="bg_screen3">#7ebc44</color>
+    <color name="bg_screen4">#33afa9</color>
+    
+    <color name="bg_screen5">#bba4f1</color>
+    <color name="bg_screen6">#fce3fd</color>
+    <color name="bg_screen7">#f9d2f1</color>
+    <color name="bg_screen8">#33afa9</color>
+</resources>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>item 01</item>
+        <item>item 02</item>
+        <item>item 03</item>
+        <item>item 04</item>
+        <item>item 05</item>
+        <item>item 06</item>
+        <item>item 07</item>
+        <item>item 08</item>
+        <item>item 09</item>
+        <item>item 10</item>
+    </string-array>
+    
+    <string-array name="major">
+        <item>가정교육과</item>
+        <item>교육학과</item>
+        <item>국어교육과</item>
+        <item>기술교육과</item>
+        <item>독어교육과</item>
+        <item>물리교육과</item>
+        <item>불어교육과</item>
+        <item>유아교육과</item>
+        <item>역사교육과</item>
+        <item>영어교육과</item>
+    </string-array>
+    
+    <string-array name="menu_coffee_name">
+        <item>에스프레소 </item>
+        <item>꼰빠냐     </item>
+        <item>기브커피              </item>
+        <item>커피ICE          </item>
+        <item>카페라떼          </item>
+        <item>카페라떼ICE       </item>
+        <item>바닐라라떼        </item>
+        <item>바닐라라떼ICE     </item>
+        <item>카푸치노          </item>
+        <item>카푸치노ICE       </item>
+        <item>카페모카          </item>
+        <item>카페모카ICE       </item>
+        <item>화이트모카        </item>
+        <item>화이트모카ICE     </item>
+        <item>카라멜마끼아또    </item>
+        <item>카라멜마끼아또ICE </item>
+    </string-array>
+    
+    <string-array name="menu_latte_name">
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>토피넛라떼</item>
+        <item>토피넛라떼_아이스</item>
+        <item>화이트초코라떼</item>
+        <item>화이트초코라떼_아이스</item>
+    </string-array>
+    
+    <string-array name="menu_beverage_name">
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>토피넛라떼</item>
+        <item>토피넛라떼_아이스</item>
+        <item>화이트초코라떼</item>
+        <item>화이트초코라떼_아이스</item>
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>오곡라떼_아이스</item>
+    </string-array>
+    
+    <string-array name="menu_tea_name">
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+    </string-array>
+    
+    <string-array name="menu_sidemenu_name">
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>토피넛라떼</item>
+        <item>토피넛라떼_아이스</item>
+        <item>화이트초코라떼</item>
+        <item>화이트초코라떼_아이스</item>
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>토피넛라떼</item>
+        <item>토피넛라떼_아이스</item>
+        <item>화이트초코라떼</item>
+        <item>화이트초코라떼_아이스</item>
+        <item>화이트초코라떼_아이스</item>
+        
+    </string-array>
+    
+    <string-array name="menupay_coffee">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_coffee_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+    </string-array>
+    
+    <string-array name="menupay_latte">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_latte_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+    </string-array>
+    
+    
+    <string-array name="menupay_beverage">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_beverage_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_tea">
+    <item>2900</item>
+    <item>2900</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+</string-array>
+    
+    <string-array name="menupay_tea_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_sidemenu">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="menupay_sidemenu_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+</resources>

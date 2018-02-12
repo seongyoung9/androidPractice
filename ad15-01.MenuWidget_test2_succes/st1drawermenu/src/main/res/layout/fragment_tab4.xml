@@ -1,0 +1,483 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".AppBar.AppBarMainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBa1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBb1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBc1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBd1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBe1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBf1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/youtube"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/kakaotalk"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/google"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/hotline"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/camera"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/naver"/>
+                
+                <ImageButton
+                    android:id="@+id/imagebtnBg1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/coffee"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</FrameLayout>

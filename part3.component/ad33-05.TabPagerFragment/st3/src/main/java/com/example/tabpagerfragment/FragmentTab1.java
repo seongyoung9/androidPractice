@@ -32,6 +32,8 @@ public class FragmentTab1 extends Fragment {
     private Button   btnAdd   = null;
     private EditText edtInput = null;
 
+
+
     public FragmentTab1() {
         // Required empty public constructor
     }
@@ -77,6 +79,8 @@ public class FragmentTab1 extends Fragment {
         mListview.setAdapter( mAdapter );
 
         edtInput = inflatedView.findViewById( R.id.edit_input);
+
+        String[] asdf = getResources().getStringArray(R.array.coffeename);
 
         btnAdd   = inflatedView.findViewById(R.id.btn_add);
         btnAdd.setOnClickListener(new View.OnClickListener() {
